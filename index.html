@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hero Academia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo My Hero Academia" style="width: 200px; height: 60px;">
+        <nav>
+            <ul>
+                <li><a href="#sinopse">Sinopse</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#temporadas">Episódios e Temporadas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <img src="banner.webp" alt="Banner My Hero Academia" class="banner" style="background-repeat: no-repeat;">
+        </section>
+
+        <div id="sinopse">
+            <h1><em>Sinopse</em></h1>
+            <p>O aparecimento de "Quirks", recém-descobertos superpoderes, tem aumentado constantemente ao longo dos anos, com 80% da humanidade possuindo várias habilidades, desde a manipulação de elementos até a mudança de modelagem. Isso deixa o restante do mundo completamente impotente, e Izuku Midoriya é um desses indivíduos.</p>
+            <p>Desde criança, o ambicioso ensino médio não queria nada além de ser um herói. O destino injusto de Izuku o deixa admirando heróis e tomando anotações sobre eles sempre que puder. Mas parece que sua persistência nasceu um pouco de fruto: Izuku conhece o herói número um e seu ídolo pessoal, tudo pode. A peculiaridade de All Might é uma habilidade única que pode ser herdada, e ele escolheu Izuku para ser seu sucessor!</p>
+            <p>Após muitos meses de treinamento cansativo, Izuku se matricula na UA High, uma prestigiada escola famosa por seu excelente programa de treinamento de heróis, e os calouros deste ano parecem especialmente promissores. Com seus colegas bizarros, mas talentosos, e a ameaça iminente de uma organização vilã, Izuku em breve aprenderá o que realmente significa ser um herói.</p>
+        </div>
+
+        <section id="info">
+            <h1><strong>INFORMAÇÕES</strong></h1>
+            <p>Veja abaixo as informações do anime: Boku no Hero</p>
+            <p><strong>Nomes do anime</strong></p>
+            <hr>
+            <ul>
+                <li>Nome do Anime: Boku no Hero Academia</li>
+                <li>Nome do Anime em Japonês: 僕のヒーローアカデミア</li>
+                <li>Nome do Anime em Inglês: My Hero Academia</li>
+            </ul>
+            <p><strong>Avaliações gerais do anime:</strong></p>
+            <hr>
+            <ul>
+                <li><strong>Nota: 7.921/10.000</strong></li>
+                <li><strong>Popularidade: 871.135</strong></li>
+            </ul>
+        </section>
+
+        <section id="personagens">
+            <h2 style="padding-left: 40%;"><strong>PERSONAGENS</strong></h2>
+            <div class="per" onclick="abrirModal('midoriya')">
+                <img src="Midoriya.jpg.crdownload" alt="Izuku Midoriya" style="height: 150px; width: 190px; border-radius: 10px;">
+                <h3 class="midoria">Izuku Midoriya</h3>
+            </div>
+            
+            <div id="midoriyaModal" class="modal">
+                <div class="modal-conteudo" style="background-color: rgb(19, 114, 19);">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(8, 197, 8);">Izuku Midoriya</h2>
+                    <img src="deku info.jpg" alt="Deku" style="height: 200px; margin-left: 200px;">
+                    <p>Izuku Midoriya é o protagonista do anime e mangá Boku no Hero Academia (My Hero Academia). Ele é um jovem estudante que sonha em se tornar um herói, apesar de nascer sem nenhuma habilidade especial (chamada "quirk", ou peculiaridade).</p>
+                </div>
+            </div>
+
+
+            <div class="per" onclick="abrirModal('bakugo')">
+                <img src="bakugo.jpg.crdownload" alt="Katsuki Bakugo" style="height: 150px; width: 190px; border-radius: 10px;">
+                <h3 class="bakugo">Katsuki Bakugo</h3>
+            </div>
+            
+            <div id="bakugoModal" class="modal">
+                <div class="modal-conteudo" style="background-color:  rgb(180, 8, 8);">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(250, 6, 6);">Katsuki Bakugo</h2>
+                    <img src="bakugo info.png" alt="bakugo" style="height: 200px; margin-left: 200px;">
+                    <p>Katsuki Bakugo é um dos personagens principais do anime My Hero Academia. Ele é um estudante da U.A. High School, onde treina para se tornar um herói profissional. Bakugo é conhecido por sua personalidade explosiva, tanto no sentido literal quanto figurado, sendo altamente impetuoso, competitivo e, muitas vezes, agressivo. Seu poder, chamado "Explosion" (Explosão), permite que ele crie explosões a partir do suor de suas mãos, dando-lhe uma enorme vantagem em combate. </p>
+                </div>
+            </div>
+
+            <div class="per" onclick="abrirModal('uraraka')">
+                <img src="uraraka.png" alt="Ochaco Uraraka" style="height: 150px; width: 190px; border-radius: 10px;">
+                <h3 class="uraraka">Ochaco Uraraka</h3>
+            </div>
+            
+            <div id="urarakaModal" class="modal">
+                <div class="modal-conteudo" style="background-color: palevioletred;">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(236, 128, 146);">Ochaco Uraraka</h2>
+                    <img src="uraraka info.webp" alt="uraraka" style="height: 250px; margin-left: 200px;">
+                    <p>
+                        Ochaco Uraraka é uma das protagonistas de My Hero Academia e uma estudante da U.A. High School, onde treina para se tornar uma heroína. Seu poder, chamado "Zero Gravity" (Gravidade Zero), permite que ela anule a gravidade de objetos ou pessoas, fazendo-os flutuar. Uraraka é gentil, otimista e muito amigável, sempre disposta a ajudar seus amigos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="per" onclick="abrirModal('todoroki')">
+                <img src="todoroki.jpeg" alt="Shoto Todoroki" style="height: 150px; width: 200px; border-radius: 10px;">
+                <h3 class="todoroki">Shoto Todoroki</h3>
+            </div>
+            
+            <div id="todorokiModal" class="modal">
+                <div class="modal-conteudo" style="background-color: blue;">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(9, 11, 121);">Shoto Todoroki</h2>
+                    <img src="todoroki.jpg" alt="todoroki" style="height: 250px; margin-left: 200px;">
+                    <p>
+                        Shoto Todoroki é um dos principais personagens de My Hero Academia e estudante da U.A. High School. Ele possui uma Quirk poderosa chamada "Half-Cold Half-Hot", que lhe permite controlar tanto fogo quanto gelo, com o lado esquerdo do corpo capaz de gerar chamas e o lado direito, gelo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="per" onclick="abrirModal('eijiro')">
+                <img src="kirishima.jpeg" alt="Eijiro Kirishima" style="height: 150px; width: 200px; border-radius: 10px;">
+                <h3 class="eijiro" style="color: brown;">Eijiro Kirishima</h3 >
+            </div>
+            
+            <div id="eijiroModal" class="modal">
+                <div class="modal-conteudo" style="background-color: rgb(88, 15, 15);">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: brown;">Eijiro Kirishima</h2>
+                    <img src="eijiro info.png" alt="eijiro" style="height: 250px; margin-left: 200px;">
+                    <p>Eijiro Kirishima é um dos personagens de My Hero Academia e um estudante da U.A. High School, conhecido por sua personalidade extrovertida, amigável e corajosa. Seu poder, chamado "Hardening" (Endurecimento), permite que ele faça seu corpo se tornar extremamente duro e resistente, como se fosse feito de pedra ou metal, o que o torna um excelente defensor em combate.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="temporadas">
+            <h1>Episódios e Temporadas</h1>
+            <div class="tp1">
+                <section class="temporada">
+                    <h2>Temporada 1</h2>
+                    <a href="https://www.youtube.com/embed/EPVkcwyLQQ8?si=hxfd7BArmfs_riXb"><img src="tp1.jfif" alt="Temporada 1"></a>
+                    <a href="https://www.youtube.com/embed/EPVkcwyLQQ8?si=hxfd7BArmfs_riXb"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                <section class="temporada">
+                    <h2>Temporada 2</h2>
+                    <a href="https://www.youtube.com/embed/aifkxK0qmcM?si=cXWnuvO074p6A5oN"><img src="tp2.jfif" alt="Temporada 2"></a>
+                    <a href="https://www.youtube.com/embed/aifkxK0qmcM?si=cXWnuvO074p6A5oN"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                <section class="temporada">
+                    <h2>Temporada 3</h2>
+                    <a href="https://www.youtube.com/embed/x5Al183eABQ?si=kCH1fe-EQEN4BPBF"><img src="tp3.jfif" alt="Temporada 3"></a>
+                    <a href="https://www.youtube.com/embed/x5Al183eABQ?si=kCH1fe-EQEN4BPBF"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Para mais informações, entre em contato pelo e-mail: contato@myheroacademia.com</p>
+
+            <div class="form-container">
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            
+        </section>
+        <p>&copy; 2023 My Hero Academia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

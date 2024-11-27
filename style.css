@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #eee7e7;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgb(18, 68, 8);
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: rgb(30, 87, 30);
+    color: white;
+    padding: 10px;
+    height: 60px;
+    width: 220vh;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+}
+
+.inicio{
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+
+#sinopse{
+    margin: 10px;
+    background-color: green;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgba(31, 32, 30, 0.301);;
+    text-align: center;
+}
+
+#sinopse p{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#sinopse h1{
+    padding-top: 20px; 
+    font-style: oblique;
+}
+
+#info{
+    margin: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgba(31, 32, 30, 0.301);;
+}
+
+#info h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#info p{
+    margin-left: 10px;
+}
+
+
+/* O Modal (inicialmente escondido) */
+.modal {
+    display: none;  /* Inicialmente invisível */
+    position: fixed;
+    z-index: 1; /* Fica na frente de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* Fundo escuro com transparência */
+}
+
+/* Conteúdo do Modal */
+.modal-conteudo {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;;
+}
+
+.modal-conteudo h2{
+    margin-bottom: 50px;
+    padding-bottom: 200px;
+}
+
+/* Botão de fechar */
+.fechar {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+/* Efeito de passar o mouse no botão de fechar */
+.fechar:hover,
+.fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#personagens{
+    background-color: green;
+    margin: 50px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    width: 1250px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgba(31, 32, 30, 0.301);;
+    display: flex;  
+    justify-content: space-between;
+}
+
+#personagens p{
+
+    margin-right: 25px;
+    color: black;
+
+}
+
+#personagens h2{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.per{
+    padding-top: 25vh;
+    padding-right: 10px;
+}
+
+.per p {
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.per p:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do texto em 20% */
+}
+
+.per img {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    cursor: pointer;
+}
+
+.per img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem para 110% */
+}
+
+.per h3{
+    font-style: italic;
+    font-weight: bold;
+}
+.midoria{
+    color: rgb(51, 243, 51);
+}
+
+.bakugo{
+    color: red;
+}
+
+.todoroki{
+    color: rgb(13, 13, 148);
+}
+
+.uraraka{
+    color: pink;
+}
+
+#temporadas{
+    background-color: green;
+    box-shadow: 5px 5px 10px 10px rgba(31, 32, 30, 0.301);;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#temporadas h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#temporadas p{
+    padding: 20px;
+    color: white;
+}
+
+.tp1 {
+    display: flex; /* Usar flexbox para alinhar as seções lado a lado */
+    justify-content: space-around; /* Espaçamento igual entre as seções */
+    flex-wrap: wrap; /* Permitir que as seções se movam para a próxima linha se não houver espaço */
+}
+
+.temporada {
+    margin: 10px; /* Margem ao redor de cada seção */
+    text-align: center; /* Centralizar o texto dentro da seção */
+}
+
+.temporada img {
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.temporada img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+}
+
+.btn{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    margin-left: 17vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer {
+    background-color: green;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Alinha os campos em coluna */
+    align-items: center; /* Centraliza os campos */
+}
+
+footer label {
+    display: block;
+    margin-top: 10px;
+    text-align: left; /* Alinha os rótulos à esquerda */
+    width: 80%; /* Mantém a largura dos rótulos igual aos campos */
+}
+
+footer input, footer textarea {
+    width: 80%; /* Largura dos campos */
+    padding: 8px; /* Preenchimento interno */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer textarea {
+    resize: none; /* Impede o redimensionamento da área de texto */
+}
+
+footer button {
+    margin-top: 15px;
+    padding: 8px 12px; /* Diminui o preenchimento do botão */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #45a049;
+}
